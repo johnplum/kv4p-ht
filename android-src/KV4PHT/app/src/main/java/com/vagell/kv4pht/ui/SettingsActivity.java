@@ -132,7 +132,7 @@ public class SettingsActivity extends AppCompatActivity {
         AutoCompleteTextView max2mFreqTextView = findViewById(R.id.max2mFreqTextView);
 
         List<String> max2mFreqs = new ArrayList<String>();
-        max2mFreqs.add("148MHz");
+        max2mFreqs.add("174MHz");
         max2mFreqs.add("146MHz");
 
         ArrayAdapter arrayAdapter1 = new ArrayAdapter(this, R.layout.dropdown_item, max2mFreqs);
